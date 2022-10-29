@@ -1,0 +1,12 @@
+Redux là một state container cho JS apps
+Là một single store chứa global state
+Thực hiện event => Dispatch chứa các object action vào store => reducer lắng nghe và trả về state update
+Với react thì Redux giúp tạo 1 global state, giúp dễ dàng truyền state xuống các component khác nhau
+mà không phải gặp vấn đề truyền prop quá nhiều bước(cách giải quyết tương tự useContext)
+Redux = useReducer + useContext
+
+Data Flow:
+Data flow một chiều của redux có thể tóm gọn như sau:
+_user click thì sẽ Dispatch một action
+_reducer lắng nghe các action trong app và xử lý tính toán để trả về một state mới
+_component đọc state và cập nhật lại ui

@@ -1,0 +1,53 @@
+.todo-app {
+    width: 800px;
+    height: 350px;
+
+    .nav-todo {
+        height: 40%;
+        background-color: azure;
+
+        .title {
+            text-align: center;
+            padding: 15px 0;
+            font-weight: 800;
+        }
+
+        .nav-list {
+            display: flex;
+            list-style-type: none;
+            justify-content: space-between;
+            padding: 0 100px;
+
+            li {
+                font-size: 18px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .list-todo {
+        background-color: gainsboro;
+        padding: 15px 15px 15px 15px;
+
+        .todo-item {
+            padding: 15px;
+            background-color: azure;
+            font-weight: 700;
+            margin-bottom: 15px;
+
+            // &:nth-child(4) {
+            //     margin-bottom: 0;
+            // }
+        }
+
+        .done-todo {
+            padding: 15px;
+            background-color: red;
+            font-weight: 700;
+            margin-bottom: 15px;
+            text-decoration: line-through;
+        }
+
+    }
+
+}

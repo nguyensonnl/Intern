@@ -14,6 +14,9 @@ const Nav = () => {
                         <li className="nav-item">
                             <Link to="/" className='nav-link active' aria-current="page">Home</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link to="/Redux" className='nav-link'>Redux</Link>
+                        </li>
                     </ul>
                 </div>
             </div>
